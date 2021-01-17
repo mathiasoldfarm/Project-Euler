@@ -1,5 +1,3 @@
-
-
 def get_next_day(day):
   if day == "monday":
     return "tuesday"
@@ -62,5 +60,3 @@ def iterate_days(f, t, start_day, ret_sundays=True, ret_end_weekday=False):
 start_date = iterate_days("1.1.1900", "1.1.1901", "monday", ret_sundays=False, ret_end_weekday=True)
 sundays = iterate_days("1.1.1901", "31.12.2000", start_date)
 print(sundays)
-
-
